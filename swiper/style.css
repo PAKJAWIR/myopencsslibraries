@@ -1,0 +1,28 @@
+/* Swiper */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {   
+    display: flex;
+    width: 300px;
+    overflow-x: scroll;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+}
+
+
+.swiper .swiper-content {
+    width: 300px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+}
